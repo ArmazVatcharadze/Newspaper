@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.searchbar{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0px 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchBtn{
+    background: blue;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    cursor: pointer;
+}
+
+.searchInput{
+    height: 28px;
+    border-radius: 20px 0px 0px 20px;
+    border: 1px solid;
+    padding-left: 5px;
+}
+
+.news{
+    background: wheat;
+    width: 333px;
+    height: 100%;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.news img{
+    width: 333px;
+}
+
+.newses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.more-info{
+    width: 150px;
+    margin-bottom: 10px;
+    color: white;
+    background: blue;
+    border: none;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.link{
+    color: black;
+}
+
+.more-link{
+    color: white;
+    text-decoration: none;
+}
+
+.description{
+    margin-left: 10px;
+    overflow: hidden; /* Hide any overflowing text */
+  text-overflow: ellipsis; /* Add ellipsis to indicate that the text has been truncated */
+  display: -webkit-box; /* Set the display to a box layout */
+  -webkit-line-clamp: 3; /* Limit the box to 3 lines */
+  -webkit-box-orient: vertical; /* Set the box layout to vertical */   
+}
+.inner{
+    display: flex;
+}
+
+.menu{
+    cursor: pointer;
+}
+
+
+li{
+    list-style-type: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.show{
+    display: none;
+}
+
+.first-img{
+    width: 100vw;
+    margin-bottom: -7px;
+}
+
+.first-text{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background: sandybrown;
+    margin-top: 0px;
+}
+.first-btn{
+    width: 150px;
+    margin-bottom: 10px;
+    color: white;
+    background: blue;
+    border: none;
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.options{
+    display: none;
+}
+
+
+.first-link{
+    width: 150px;
+}
+
+.first-author{
+    margin-bottom: 5px;
+}
+
+@media (min-width: 1024px){
+    .first-news{
+        width: 50vw;
+    }
+
+    .first-img{
+        width:50vw;
+    }
+
+    .searchBtn{
+        width: 50px;
+        display: flex;
+        height: 52px;
+        justify-content: center;
+    }
+
+    .searchInput{
+        width: 250px;
+        height: 48px;
+        font-size: 20px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .options{
+        display: flex;
+        gap: 90px;
+        text-transform: uppercase;
+    }
+
+    .searchbar{
+        margin-left: 20px;
+    margin-right: 20px;
+    }
+
+
+}
