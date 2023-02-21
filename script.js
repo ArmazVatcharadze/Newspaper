@@ -47,7 +47,7 @@ fetch(`https://newsapi.org/v2/everything?q=${topic}&apiKey=${apiKey}`)
 
 }
 
-// fetchFirst()
+fetchFirst()
 
 
 
